@@ -1,0 +1,67 @@
+/* Estilos Generales para todo el Cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Elegir una fuente legible */
+    background-color: #f4f4f9; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos para el Encabezado (header) */
+header {
+    background-color: #007bff; /* Un azul primario */
+    color: white; /* Texto blanco para contraste */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la Sección Principal (main) */
+main {
+    width: 80%; /* Ancho de la sección principal */
+    margin: 0 auto; /* Centrar la sección principal */
+    padding: 20px;
+}
+
+/* Estilos para las Tarjetas (Elementos con la clase 'tarjeta') */
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 20px;
+}
+
+.tarjeta h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff; /* Línea de color debajo del título */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Estilos para las listas */
+#lista-habilidades ul {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    padding: 0;
+}
+
+#lista-habilidades li {
+    background-color: #e9ecef; /* Fondo suave para cada elemento */
+    margin-bottom: 8px;
+    padding: 10px;
+    border-left: 5px solid #007bff; /* Borde izquierdo de color */
+}
+
+/* Estilos para el Pie de Página (footer) */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
